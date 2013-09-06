@@ -1,0 +1,4 @@
+<% @comics.each do |comic| %>
+  <p><%=comic.day%>/<%=comic.month%>/<%=comic.year%></p>
+	<img src="http://dilbert.com<%=comic.location%>">
+<% end %>

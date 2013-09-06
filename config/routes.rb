@@ -1,4 +1,7 @@
 DilbertReader::Application.routes.draw do
+
+  match ':year/:month' => "month#view"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
